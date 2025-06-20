@@ -7,8 +7,7 @@ function App() {
   const [category, setCategory] = useState("Select a category");
   const [tasks, setTasks] = useState([]);
 
-  // Emoji & color for each category
-  const categoryMap = {
+   const categoryMap = {
     Learning: { emoji: "📚", color: "bg-yellow-100 text-yellow-800" },
     Personal: { emoji: "🏠", color: "bg-green-100 text-green-800" },
     Work: { emoji: "💼", color: "bg-blue-100 text-blue-800" },
@@ -38,8 +37,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex flex-col items-center p-6">
-      {/* ✅ Toaster is centered */}
-      <Toaster position="top-center" />
+       <Toaster position="top-center" />
 
       <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center text-blue-700">
         ✅ To-Do App  
